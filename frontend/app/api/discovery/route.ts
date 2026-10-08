@@ -59,7 +59,7 @@ export async function GET(req: NextRequest) {
         select: {
           id: true,
           isOnline: true,
-          lastSeen: true,
+          lastSeenAt: true,
           vipLevel: true,
           selfieVerified: true,
           level: true,
