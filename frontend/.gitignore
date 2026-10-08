@@ -5,3 +5,9 @@ node_modules/
 .next/
 *.db
 *.db-journal
+
+# Secrets locaux (ne jamais commiter)
+.env
+.env.local
+.env*.local
+!.env.example
