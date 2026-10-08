@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter, Poppins } from 'next/font/google'
 import { Toaster } from 'react-hot-toast'
+import Providers from '@/components/providers/Providers'
 import './globals.css'
 
 const inter = Inter({
@@ -71,6 +72,7 @@ export default function RootLayout({
   return (
     <html lang="fr" className={`${inter.variable} ${poppins.variable} dark`}>
       <body className="bg-hilunia-bg-dark text-white antialiased">
+        <Providers>
         {children}
         <Toaster
           position="top-center"
@@ -96,6 +98,7 @@ export default function RootLayout({
             },
           }}
         />
+        </Providers>
       </body>
     </html>
   )
