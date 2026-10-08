@@ -93,6 +93,7 @@ async function main() {
       data: {
         userId: admin.id,
         displayName: 'Admin',
+        birthDate: new Date('1990-01-01'),
         gender: 'OTHER',
         interestedIn: 'BOTH',
         isComplete: true,
