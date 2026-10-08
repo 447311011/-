@@ -7,6 +7,8 @@ export async function GET(req: NextRequest) {
   const session = await auth()
   if (!session?.user?.id) return NextResponse.json({ error: 'Non authentifié' }, { status: 401 })
 
+  try {
+
   const { searchParams } = new URL(req.url)
   const limit = Math.min(parseInt(searchParams.get('limit') ?? '10'), 20)
   const minAge = parseInt(searchParams.get('minAge') ?? '18')
@@ -107,6 +109,10 @@ export async function GET(req: NextRequest) {
     .slice(0, limit)
 
   return NextResponse.json({ profiles: profileCards, hasMore: profileCards.length === limit })
+  } catch (err) {
+    console.error('[discovery GET]', err)
+    return NextResponse.json({ error: 'Erreur serveur', detail: String(err) }, { status: 500 })
+  }
 }
 
 export async function POST(req: NextRequest) {
