@@ -424,17 +424,21 @@ SUGO bloque ces messages sans explication. On l'a vu dans votre conversation ave
 
 ## 14. Propositions de noms
 
-À vérifier avant de choisir : marque déposée, nom de domaine (.com / .app) et disponibilité sur les stores.
+Première liste (Amora, Lumi, Vibzy…) : abandonnée, les noms sont déjà pris.
 
-| Nom         | Idée                                              |
-|-------------|---------------------------------------------------|
-| **Amora**   | « Amour » dans plusieurs langues, doux, international |
-| **Lumi**    | Lumière, positif, facile à dire partout          |
-| **Vibzy**   | Les « vibes », jeune et fun                       |
-| **Rozy**    | Rappelle le rose, la couleur de l'application    |
-| **Kozy**    | Cosy, chaleureux, en confiance                    |
-| **Meetoo**  | « Meet » + « me too », rencontre et partage       |
-| **Hiloo**   | Vient du bouton « Hi », simple et mémorisable     |
-| **Nuvia**   | Élégant, sonne bien en français, anglais, espagnol et arabe |
-| **Lovaz**   | Love + chez (« chez nous »)                       |
-| **Palooza** | Fête, ambiance de salon vocal                     |
+Deuxième liste, vérifiée le 08/10/2026 :
+- **Domaine .com** : vérifié auprès du registre.
+- **Recherche web** : aucune application ni marque trouvée sous ce nom exact.
+
+| Nom          | Idée                                         | .com          | Appli ou marque trouvée ? | Remarque |
+|--------------|----------------------------------------------|---------------|---------------------------|----------|
+| **Hilunia**  | « Hi » (le bouton) + « luna » (lune, nuit, romance) | ✅ libre | Aucune | Proche de « Lunia » (appli d'astrologie), mais assez différent |
+| **Kozimba**  | « Cosy » + sonorité africaine et festive     | ✅ libre      | Aucune                    | Original, facile à retenir |
+| **Rozimeet** | « Rose » (notre couleur) + « meet » (rencontrer) | ✅ libre  | Aucune                    | Dit clairement ce que fait l'application |
+| **Lovazuri** | « Love » + « zuri » (« beau » en swahili)    | ✅ libre      | Aucune                    | Proche de « Lozuri » (mode) et « Lovaza » (médicament) |
+
+Domaines .com aussi libres, non vérifiés sur le web : rozihello.com, rosymeet.com, kozimora.com, lovazora.com.
+
+Écartés : Rozivo, Hivora, Kizzora, Amilune, Rozelya, Vibelune, Amivibe, Vibrozia (.com déjà pris), Kizzivo (trop proche de l'appli « Kizz »).
+
+> Étape suivante une fois le nom choisi : vérifier les marques déposées (EUIPO / WIPO, voir 13), acheter le .com, réserver les pseudos Instagram, TikTok et Facebook.
