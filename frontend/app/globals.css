@@ -1,0 +1,213 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import des polices */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800;900&display=swap');
+
+:root {
+  --violet: #7C5CFF;
+  --violet-dark: #6344E8;
+  --rose: #FF4FA3;
+  --rose-dark: #E8388A;
+  --light-rose: #FFD6EA;
+  --coral: #FF7A6B;
+  --bg-light: #FAF7FF;
+  --bg-dark: #14101F;
+  --surface: #1E1836;
+  --surface-2: #251F3A;
+  --border: #2D2550;
+  --text-muted: #9B8FC4;
+  --font-inter: 'Inter', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: var(--font-inter);
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar personnalisée */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--surface);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--violet);
+}
+
+/* Sélection de texte */
+::selection {
+  background-color: rgba(124, 92, 255, 0.3);
+  color: white;
+}
+
+/* Classes utilitaires Hilunia */
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, #7C5CFF 0%, #FF4FA3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .bg-gradient-hilunia {
+    background: linear-gradient(135deg, #7C5CFF 0%, #FF4FA3 100%);
+  }
+
+  .border-gradient-hilunia {
+    border: 1px solid transparent;
+    background-image: linear-gradient(var(--surface), var(--surface)),
+      linear-gradient(135deg, #7C5CFF, #FF4FA3);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+  }
+
+  .glass {
+    background: rgba(30, 24, 54, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(124, 92, 255, 0.15);
+  }
+
+  .glass-light {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  .shadow-glow-violet {
+    box-shadow: 0 0 30px rgba(124, 92, 255, 0.4);
+  }
+
+  .shadow-glow-rose {
+    box-shadow: 0 0 30px rgba(255, 79, 163, 0.4);
+  }
+
+  /* Shimmer pour les skeletons */
+  .shimmer {
+    background: linear-gradient(
+      90deg,
+      var(--surface) 25%,
+      var(--surface-2) 50%,
+      var(--surface) 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+
+  /* Profile card gradient */
+  .card-overlay {
+    background: linear-gradient(180deg, transparent 30%, rgba(20, 16, 31, 0.95) 100%);
+  }
+
+  /* Safe area pour mobile */
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  .pt-safe {
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+
+  /* Tap highlight suppression */
+  .no-tap {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    user-select: none;
+  }
+
+  /* Hide scrollbar */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@layer components {
+  /* Bouton gradient principal */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-2xl font-semibold text-white bg-gradient-hilunia shadow-hilunia transition-all duration-200 hover:shadow-hilunia-lg hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100;
+  }
+
+  /* Bouton secondaire */
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-2xl font-semibold text-white bg-hilunia-surface border border-hilunia-border transition-all duration-200 hover:bg-hilunia-surface-2 hover:border-hilunia-violet/40 active:scale-[0.98];
+  }
+
+  /* Bouton ghost */
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl font-medium text-hilunia-text-muted transition-all duration-200 hover:bg-hilunia-surface hover:text-white active:scale-[0.98];
+  }
+
+  /* Input */
+  .input-field {
+    @apply w-full px-4 py-3 rounded-2xl bg-hilunia-surface border border-hilunia-border text-white placeholder-hilunia-text-muted focus:outline-none focus:ring-2 focus:ring-hilunia-violet/50 focus:border-hilunia-violet transition-all duration-200;
+  }
+
+  /* Card */
+  .card {
+    @apply bg-hilunia-surface rounded-3xl p-4 border border-hilunia-border;
+  }
+
+  /* Badge */
+  .badge {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold;
+  }
+
+  /* Icône de notification */
+  .notif-dot {
+    @apply absolute -top-0.5 -right-0.5 w-2.5 h-2.5 bg-hilunia-rose rounded-full border-2 border-hilunia-bg-dark;
+  }
+}
+
+/* Animations des transitions de page */
+@keyframes pageIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-enter {
+  animation: pageIn 0.25s ease-out;
+}
+
+/* Style du focus global */
+:focus-visible {
+  outline: 2px solid rgba(124, 92, 255, 0.6);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
