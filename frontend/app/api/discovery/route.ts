@@ -8,14 +8,13 @@ export async function GET(req: NextRequest) {
   if (!session?.user?.id) return NextResponse.json({ error: 'Non authentifié' }, { status: 401 })
 
   try {
-    console.log('[discovery] userId:', userId)
-
   const { searchParams } = new URL(req.url)
   const limit = Math.min(parseInt(searchParams.get('limit') ?? '10'), 20)
   const minAge = parseInt(searchParams.get('minAge') ?? '18')
   const maxAge = parseInt(searchParams.get('maxAge') ?? '99')
 
   const userId = session.user.id
+  console.log('[discovery] userId:', userId)
 
   const myProfile = await prisma.profile.findUnique({
     where: { userId },
