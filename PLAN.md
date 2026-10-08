@@ -94,20 +94,32 @@ mais elle est **plus belle, plus honnête et plus sûre**.
 |----------------------|-----------------------------------------------------------------------|-----------------------------------------------------|
 | **Pièces d'or** 🪙   | Achat en argent réel, bonus d'arrivée, tâches quotidiennes, gains de jeux | Cadeaux, appels, jeux, Marché, mises en avant        |
 | **Diamants** 💎      | Reçus quand quelqu'un vous offre un cadeau                            | Échange contre des pièces, **retrait d'argent (hôtes uniquement)** |
+| **Jetons de jeu** 🎟️ | Gains dans les jeux                                                   | Rejouer, objets du Marché. **Jamais convertibles en argent** (voir 5.3) |
 | **Points de niveau** | Gagnés en dépensant (richesse) ou en recevant (charme)                | Niveaux et privilèges                                |
 
-### 4.2 Bonus d'arrivée : beaucoup de pièces au départ, qui partent vite
+### 4.2 Bonus d'arrivée : stratégie « goutte à goutte »
 
-C'est ce que vous avez demandé. Le principe :
+Décision : 3 000 pièces d'un coup, c'est trop. On donne **peu à la fois, mais souvent**, et toujours en échange d'une action utile pour l'application.
 
-- **Bonus de bienvenue : 2 000 pièces**, offertes à l'inscription.
-- **+500 pièces** quand le profil est complété : 4 photos, bio, taille, profession, pays.
-- **+500 pièces** pour la vérification par selfie. Ça pousse les gens à se faire vérifier.
-- **Total possible au départ : 3 000 pièces.**
+**Le parcours du nouvel utilisateur :**
 
-Le coût des actions est réglé pour que ces 3 000 pièces durent **environ 1 à 2 jours** d'utilisation active.
-Exemples : quelques cadeaux, 10 minutes d'appel vidéo, quelques parties de jeu.
-L'utilisateur découvre toutes les fonctions, puis il recharge, prend un abonnement VIP ou fait ses tâches quotidiennes.
+| Moment                                    | Pièces offertes | Pourquoi |
+|-------------------------------------------|-----------------|----------|
+| Inscription                               | **300**         | Le solde paraît « riche » : 300, ça semble beaucoup |
+| Première photo + bio                      | +100            | Les profils remplis attirent les autres |
+| Vérification par selfie                   | +200            | Plus de profils vérifiés, donc plus de confiance |
+| Premier Moment publié                     | +50             | Le fil d'actualité se remplit |
+| Jour 2 (retour dans l'application)        | +50             | Habitude de revenir |
+| Jour 7 (série de connexions)              | +150            | Fidélité |
+| **Total sur la première semaine**         | **≈ 850**       | |
+
+**Pourquoi ça marche :**
+- Avec 300 pièces au départ, on peut envoyer quelques petits cadeaux ou faire **5 minutes d'appel vidéo**. L'utilisateur goûte à tout, mais le solde baisse vite.
+- **Quand le solde passe sous 50 pièces**, une offre s'affiche : « 1re recharge : pièces ×2 », valable 24 h. C'est le moment où l'utilisateur a le plus envie de continuer.
+- Les tâches quotidiennes (≈ 100 🪙/jour) permettent de continuer sans payer, mais lentement. Payer reste le chemin rapide.
+- **Les pièces gagnées gratuitement ne peuvent pas être converties en argent réel.** Ça évite la triche avec des faux comptes (voir 6.2).
+
+> Rappel : le prix reste toujours affiché avant de payer, et les fonctions de base restent gratuites. On joue sur l'envie, pas sur la surprise. C'est ce qui évite les avis 1 étoile.
 
 > ⚠️ **Mise en garde importante.** Les avis 1 étoile de SUGO viennent justement de là : « très cher », « 6000 pièces perdues », « il faut payer à un moment ».
 > Pour que des pièces qui s'épuisent vite ne deviennent pas de mauvaises notes, on applique trois règles :
@@ -201,26 +213,37 @@ L'utilisateur découvre toutes les fonctions, puis il recharge, prend un abonnem
 - Action ou vérité, en version « brise-glace » pour les rencontres
 - Uno-like : jeu de cartes de couleurs, avec un nom et un design originaux
 
-**Mini-jeux en solo** :
-- Roue de la fortune quotidienne, **gratuite**, 1 tour par jour
-- Coffres de connexion
+**Mini-jeux de chance** (machine à sous, roue, coffres, « lion ou tigre »…) : voir 5.3 pour les règles.
 
-### 5.3 ⚠️ Point légal très important : les jeux de hasard
+### 5.3 Gagner ou perdre des pièces : comment le faire légalement
 
-SUGO propose des machines à sous, la roulette, « Crash Rocket », « Lion ou Tigre »… Dans ces jeux, on mise des pièces achetées avec de l'argent réel et le résultat dépend du hasard.
-Chez SUGO, les pièces peuvent finir en diamants, puis en argent réel. **Ces jeux deviennent alors des jeux d'argent au sens de la loi.**
-- C'est interdit sans licence de casino dans la plupart des pays (France, États-Unis, Royaume-Uni, une grande partie de l'Afrique et du Moyen-Orient…).
-- Google Play et l'App Store suppriment les applications qui le font sans licence.
-- Le risque : suppression de l'application, amendes, poursuites.
+Décision : dans les jeux, on peut **gagner des pièces, en perdre, ou jouer gratuitement**.
 
-**Ce que je propose :**
-1. Des **jeux d'adresse et de réflexion** (Ludo, dominos, dames, quiz…), avec ou sans mise de pièces.
-2. **Aucune machine à sous, aucune roulette, aucun « crash » où l'on mise des pièces achetées.**
-3. La roue quotidienne reste **gratuite**. Elle ne coûte rien et ne s'achète pas.
-4. On rappelle les règles de jeu responsable : limite de mise par jour, historique visible.
+**Le problème légal.** Un jeu devient un **jeu d'argent** (interdit sans licence de casino dans la plupart des pays, et refusé par Google Play et l'App Store) quand trois choses sont réunies :
+1. on mise quelque chose qui a été **acheté avec de l'argent réel** ;
+2. le résultat dépend du **hasard** ;
+3. ce qu'on gagne peut **redevenir de l'argent réel**.
 
-Ce choix nous protège et devient un argument : « Pas de casino déguisé ».
-Si vous voulez quand même des jeux de hasard payants plus tard, il faudra consulter un avocat et obtenir une licence.
+Chez SUGO, les trois sont réunis : les pièces gagnées peuvent être offertes en cadeau à un hôte, qui les retire en argent.
+
+**Notre solution : couper le point 3 avec deux soldes séparés.**
+
+| Solde                       | D'où il vient                         | Utilisable pour                         | Convertible en argent ? |
+|-----------------------------|---------------------------------------|-----------------------------------------|-------------------------|
+| **Pièces d'or** 🪙          | Achat, bonus, tâches                  | Tout : cadeaux, appels, jeux, Marché    | Seulement via les cadeaux reçus par les hôtes |
+| **Jetons de jeu** 🎟️        | **Gains dans les jeux**               | Rejouer, objets du Marché (cadres, effets…) | **Jamais**. Pas de cadeau, pas de transfert |
+
+- On peut miser des **pièces d'or** dans un jeu, mais **les gains sont versés en jetons de jeu**.
+- Les jetons ne peuvent jamais finir dans la poche d'un hôte, donc jamais redevenir de l'argent. C'est le modèle « casino social », toléré dans beaucoup de pays pour les plus de 18 ans.
+- Chaque jeu garde un **mode gratuit** : pas de mise, on joue pour le classement.
+
+**Règles de l'algorithme des jeux :**
+- **Jeux d'adresse** (Ludo, dominos, dames, quiz) : le meilleur joueur gagne la cagnotte. L'application prend 10 %.
+- **Jeux de chance** : les probabilités sont **fixes et affichées**, par exemple « Taux de retour : 95 % ». L'algorithme ne s'adapte **pas** au joueur pour le faire perdre ou pour l'accrocher : ce serait illégal et détectable.
+- Tirages faits par un **générateur aléatoire côté serveur**, jamais sur le téléphone, sinon les tricheurs le modifient. (C'est votre domaine, la cybersécurité 😉)
+- **Jeu responsable** : limite de mise par jour réglable, historique des parties, pause proposée après de grosses pertes.
+
+> ⚠️ Même avec ce système, les règles varient selon les pays. Certains interdisent même le casino social (par exemple la Belgique et quelques pays du Moyen-Orient). **Il faudra faire valider par un juriste avant de lancer les jeux de chance**, et pouvoir les désactiver pays par pays. Les jeux d'adresse posent beaucoup moins de problèmes : on commence par eux.
 
 ---
 
@@ -262,11 +285,38 @@ SUGO bloque ces messages sans explication. On l'a vu dans votre conversation ave
 - Limite de dépense par jour ou par mois.
 - Supprimer mon compte et mes données en un clic.
 
+### 6.7 Démarrage : une application vivante dès le premier jour, sans faux profils
+
+**Votre demande :** créer des personnages fictifs qui font croire aux premiers inscrits qu'il y a déjà des millions d'utilisateurs, puis les supprimer plus tard.
+
+**Ma recommandation : ne pas le faire.** Voici pourquoi :
+- **C'est exactement ce qui détruit SUGO.** Relisez les avis : « faux profils », « 50 000 nanas en contact dès l'installation », « fake profils générés par IA », « désinstallé ». Notre promesse « Ici, les profils sont vrais » tomberait dès le premier jour.
+- **C'est illégal quand des gens paient.** Faire croire à quelqu'un qu'il parle à une vraie personne pour qu'il achète des pièces, c'est une **pratique commerciale trompeuse**. Des précédents existent : Match.com a été poursuivi aux États-Unis pour de faux profils, et le site Ashley Madison a payé 1,6 million de dollars d'amende pour ses faux profils féminins automatisés.
+- **On finit toujours par le découvrir.** Il suffit d'une capture d'écran ou d'un avis viral. La « mise à jour pour supprimer les personnages » ne réparera pas la réputation.
+- **Google Play et Apple** retirent les applications de rencontre qui trompent sur l'identité des profils.
+
+**À la place, voici ce qui fonctionne honnêtement :**
+
+| Idée | Comment ça marche |
+|------|-------------------|
+| **Personnages IA affichés comme tels** | Des compagnons IA avec un badge visible **« IA »** : on peut discuter, jouer au quiz ou au Ludo avec eux. L'application paraît vivante, sans mentir. Ils ne demandent jamais de cadeaux. |
+| **Hôtes et animateurs réels** | Au lancement, on recrute (et paie un peu) 20 à 50 vraies personnes, avec le badge **« Hôte »**, pour animer les salons vocaux tous les soirs. |
+| **Contenu de départ par l'équipe** | Vous et votre équipe publiez des Moments, des quiz et des sondages, et animez des événements dès le premier jour. |
+| **Lancement par vagues** | On lance dans une ou deux régions à la fois (par exemple France et Côte d'Ivoire), pour que les utilisateurs se trouvent entre eux, puis on élargit. |
+| **Liste d'attente et invitations** | « Inscris-toi, invite 3 amis, entre plus tôt. » La rareté attire, et chaque utilisateur en amène d'autres. |
+| **Salons programmés** | Rendez-vous fixes (« Soirée quiz à 21 h ») : tout le monde arrive en même temps, le salon est plein. |
+| **Ambassadeurs** | Des créateurs TikTok et Instagram invités à faire des salons en direct dans l'application. |
+| **Compteurs vrais** | On affiche « En ligne maintenant », « Salons actifs », avec les vrais chiffres. Petits au début, mais réels. |
+
+> C'est la seule partie du plan où je ne vous suivrai pas : je ne vais pas concevoir de profils qui se font passer pour de vraies personnes. Les options ci-dessus donnent le même effet « application vivante » sans risque légal, et elles protègent votre réputation.
+
 ---
 
 ## 7. Design : plus beau que SUGO
 
-- **Style** : moderne, lumineux, doux. Dégradés violet, rose et corail, coins arrondis, ombres légères, belles animations.
+- **Couleurs (validées)** : violet en couleur principale, **rose** très présent (boutons « Hi », cadeaux, likes, badges), et une touche de corail.
+  Exemple de palette : violet `#7C5CFF`, rose `#FF4FA3`, rose clair `#FFD6EA`, corail `#FF7A6B`, fond clair `#FAF7FF`, fond sombre `#14101F`.
+- **Style** : moderne, lumineux, doux. Dégradés violet et rose, coins arrondis, ombres légères, belles animations.
 - **Mode clair et mode sombre.**
 - **Typographie** lisible (par exemple Inter ou Poppins).
 - **Icônes** dessinées sur mesure et cohérentes entre elles.
@@ -353,14 +403,38 @@ SUGO bloque ces messages sans explication. On l'a vu dans votre conversation ave
 
 ---
 
-## 13. Questions à trancher avant de coder
+## 13. Décisions
 
-1. **Nom de l'application.** Il faut vérifier qu'il est libre (marque, nom de domaine, stores).
-2. **Couleurs principales.** Violet et rose comme proposé, ou une autre identité ?
-3. **Bonus d'arrivée.** 3 000 pièces au total, ça vous convient ?
-4. **Prix des packs et du VIP.** OK pour la grille de la section 4.3, ou à modifier ?
-5. **Jeux de hasard.** D'accord pour garder seulement des jeux d'adresse et de réflexion, plus la roue gratuite (voir 5.3) ?
-6. **Hôtes payés.** On les affiche avec un badge « Hôte » (recommandé), ou pas ?
-7. **Échange de contacts.** D'accord pour un déblocage après la vérification et quelques échanges (voir 6.4) ?
-8. **Langues de départ.** Français, anglais, espagnol, portugais et arabe, ça vous va ?
-9. **Votre rôle.** Vous savez programmer, ou je m'occupe de tout le code et je vous explique au fur et à mesure ?
+### Déjà prises
+- ✅ **Couleurs** : violet + rose (plus de rose) + corail (section 7).
+- ✅ **Bonus d'arrivée** : petit et progressif, stratégie « goutte à goutte » (section 4.2).
+- ✅ **Prix** des packs et du VIP : grille de la section 4.3.
+- ✅ **Jeux** : gagner ou perdre des pièces, ou jouer gratuitement. Gains versés en jetons de jeu non convertibles (section 5.3).
+- ✅ **Échange de contacts** : débloqué après la vérification et quelques échanges (section 6.4).
+- ✅ **Porteur du projet** : étudiant en 2e année de cybersécurité. La sécurité sera un point fort du projet.
+
+### Encore à trancher
+1. **Nom de l'application** : voir les propositions en section 14.
+2. **Démarrage** : quelles idées de la section 6.7 garder (personnages IA affichés, hôtes réels, lancement par vagues…) ?
+3. **Langues de départ** : français, anglais, espagnol, portugais et arabe, confirmé ?
+4. **Hôtes payés** : badge « Hôte » visible, confirmé ?
+5. **Première région de lancement** (pour le lancement par vagues).
+
+---
+
+## 14. Propositions de noms
+
+À vérifier avant de choisir : marque déposée, nom de domaine (.com / .app) et disponibilité sur les stores.
+
+| Nom         | Idée                                              |
+|-------------|---------------------------------------------------|
+| **Amora**   | « Amour » dans plusieurs langues, doux, international |
+| **Lumi**    | Lumière, positif, facile à dire partout          |
+| **Vibzy**   | Les « vibes », jeune et fun                       |
+| **Rozy**    | Rappelle le rose, la couleur de l'application    |
+| **Kozy**    | Cosy, chaleureux, en confiance                    |
+| **Meetoo**  | « Meet » + « me too », rencontre et partage       |
+| **Hiloo**   | Vient du bouton « Hi », simple et mémorisable     |
+| **Nuvia**   | Élégant, sonne bien en français, anglais, espagnol et arabe |
+| **Lovaz**   | Love + chez (« chez nous »)                       |
+| **Palooza** | Fête, ambiance de salon vocal                     |
