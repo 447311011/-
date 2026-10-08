@@ -8,6 +8,7 @@ export async function GET(req: NextRequest) {
   if (!session?.user?.id) return NextResponse.json({ error: 'Non authentifié' }, { status: 401 })
 
   try {
+    console.log('[discovery] userId:', userId)
 
   const { searchParams } = new URL(req.url)
   const limit = Math.min(parseInt(searchParams.get('limit') ?? '10'), 20)
@@ -36,6 +37,8 @@ export async function GET(req: NextRequest) {
     ...alreadyInteracted.map(l => l.toUserId),
     ...blockedUsers.map(b => b.blockerId === userId ? b.blockedId : b.blockerId),
   ]
+  console.log('[discovery] excludedIds:', excludedIds.length, excludedIds)
+  console.log('[discovery] birthDate range:', minBirthDate.toISOString(), '->', maxBirthDate.toISOString())
 
   const today = new Date()
   const maxBirthDate = new Date(today.getFullYear() - minAge, today.getMonth(), today.getDate())
@@ -72,6 +75,7 @@ export async function GET(req: NextRequest) {
     orderBy: { user: { vipLevel: 'desc' } },
   })
 
+  console.log('[discovery] profiles found:', profiles.length)
   const myLat = myProfile?.latitude
   const myLon = myProfile?.longitude
 
