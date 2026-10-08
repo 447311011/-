@@ -241,16 +241,18 @@ export default function MoiPage() {
 
         {/* VIP */}
         {profile.vipLevel === 'NONE' && (
-          <div className="card p-4 bg-gradient-to-br from-yellow-500/10 to-amber-500/5 border-yellow-500/20">
-            <div className="flex items-center gap-3">
-              <div className="text-3xl">👑</div>
-              <div className="flex-1">
-                <h3 className="font-bold text-white text-sm">Passe au VIP</h3>
-                <p className="text-xs text-hilunia-text-muted mt-0.5">Apparais en premier, Super Likes illimités...</p>
+          <Link href="/boutique">
+            <div className="card p-4 bg-gradient-to-br from-yellow-500/10 to-amber-500/5 border-yellow-500/20">
+              <div className="flex items-center gap-3">
+                <div className="text-3xl">👑</div>
+                <div className="flex-1">
+                  <h3 className="font-bold text-white text-sm">Passe au VIP</h3>
+                  <p className="text-xs text-hilunia-text-muted mt-0.5">Apparais en premier, Super Likes illimités...</p>
+                </div>
+                <ChevronRight className="w-4 h-4 text-yellow-400" />
               </div>
-              <ChevronRight className="w-4 h-4 text-yellow-400" />
             </div>
-          </div>
+          </Link>
         )}
 
         {/* Vérification */}

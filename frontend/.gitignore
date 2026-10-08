@@ -1,3 +1,7 @@
 # User uploads (local dev)
 public/uploads/*
 !public/uploads/.gitkeep
+node_modules/
+.next/
+*.db
+*.db-journal
